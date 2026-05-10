@@ -83,13 +83,15 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex items-center justify-center p-8 lg:p-12">
-              <Image
-                src="/images/img_4522_digital_logo.png"
-                alt="DJ's Mobile Rust & Mechanical logo"
-                width={480}
-                height={480}
-                className="w-full max-w-sm lg:max-w-md"
-              />
+              <div className="w-72 h-72 lg:w-96 lg:h-96 rounded-full bg-white overflow-hidden flex items-center justify-center shadow-xl">
+                <Image
+                  src="/images/img_4522_digital_logo.png"
+                  alt="DJ's Mobile Rust & Mechanical logo"
+                  width={480}
+                  height={480}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
