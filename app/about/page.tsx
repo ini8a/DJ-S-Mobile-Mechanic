@@ -37,8 +37,8 @@ export default function AboutPage() {
       <PageHero
         title="About DJ's Mobile Rust & Mechanical — Logan"
         subtitle="Logan-based. Family run. 20+ years in the trade."
-        image="/images/hero_3.jpg"
-        imageAlt="DJ's Mobile Rust & Mechanical ute at a customer's home in Logan"
+        image="/images/hero_4.jpg"
+        imageAlt="DJ's Mobile Rust & Mechanical ute parked at a customer's home in Logan"
       />
 
       <section className="bg-white py-20 lg:py-28">

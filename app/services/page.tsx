@@ -25,9 +25,8 @@ const services: Service[] = [
     title: "Log Book Servicing",
     body:
       "Your log book service needs to be done on schedule to keep your warranty valid. We handle it all — oil, filters, fluids, belts, checks — and stamp your log book. No dealership required.",
-    image:
-      "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80",
-    alt: "Mechanic performing a log book service",
+    image: "/images/contact_hero.png",
+    alt: "Workshop tools and repair estimate for a log book service",
   },
   {
     title: "General Servicing & Mechanical",
@@ -57,9 +56,8 @@ const services: Service[] = [
     title: "Pre-Purchase Inspections",
     body:
       "Thinking about buying a used car? Get us to check it first. We'll go over it top to bottom and tell you exactly what you're getting into. Worth every cent.",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-    alt: "Mechanic inspecting a used vehicle",
+    image: "/images/service_hero.png",
+    alt: "Professional tools laid out for a pre-purchase vehicle inspection",
   },
   {
     title: "Roadworthy Certificates",
@@ -84,6 +82,8 @@ export default function ServicesPage() {
       <PageHero
         title="Mobile Automotive Services — Logan & Surrounds"
         subtitle="Full range of mobile mechanical services across Logan. We come to you — no drop-off needed."
+        image="/images/hero_5.jpg"
+        imageAlt="DJ's Mobile Rust & Mechanical ute next to a customer's car"
       />
 
       <section className="bg-white py-20 lg:py-28">

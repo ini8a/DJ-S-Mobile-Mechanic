@@ -29,6 +29,8 @@ export default function ContactPage() {
       <PageHero
         title="Get a Free Quote — Logan & Surrounds"
         subtitle="Call us or send a message. We'll get back to you fast."
+        image="/images/contact_hero.png"
+        imageAlt="Workshop tools and repair estimate — DJ's Mobile Rust & Mechanical"
       />
 
       <section className="bg-white py-20 lg:py-28">
