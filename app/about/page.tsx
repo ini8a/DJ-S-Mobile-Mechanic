@@ -82,13 +82,13 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-xl">
+            <div className="flex items-center justify-center p-8 lg:p-12">
               <Image
-                src="/images/hero.jpg"
-                alt="Damian with his mobile mechanic ute"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                src="/images/img_4522_digital_logo.png"
+                alt="DJ's Mobile Rust & Mechanical logo"
+                width={480}
+                height={480}
+                className="w-full max-w-sm lg:max-w-md"
               />
             </div>
           </div>

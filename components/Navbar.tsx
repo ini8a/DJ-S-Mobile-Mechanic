@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -32,11 +33,14 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link href="/" className="flex items-baseline gap-2">
-            <span className="text-brand-orange font-black text-2xl">DJ&apos;s</span>
-            <span className="hidden sm:inline text-white font-semibold text-sm tracking-wide">
-              Mobile Rust &amp; Mechanical
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/img_4522_digital_logo.png"
+              alt="DJ's Mobile Rust & Mechanical logo"
+              width={56}
+              height={56}
+              className="invert"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">
