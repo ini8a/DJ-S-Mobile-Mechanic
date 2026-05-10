@@ -4,6 +4,7 @@ import StatsBar from "@/components/StatsBar";
 import ServicesSection from "@/components/ServicesSection";
 import WhyUs from "@/components/WhyUs";
 import Testimonials from "@/components/Testimonials";
+import FacebookSection from "@/components/FacebookSection";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function HomePage() {
       <ServicesSection />
       <WhyUs />
       <Testimonials />
+      <FacebookSection />
       <CTASection />
     </>
   );

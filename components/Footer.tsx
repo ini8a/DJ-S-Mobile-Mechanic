@@ -41,7 +41,9 @@ export default function Footer() {
               Licensed A.I.S 10865
             </p>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/people/DJs-Mobile-Rust-Mechanical/61556690033135/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="mt-4 inline-flex items-center gap-2 text-gray-400 hover:text-brand-orange transition-colors"
             >
