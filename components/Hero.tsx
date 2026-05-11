@@ -49,16 +49,16 @@ export default function Hero() {
             variants={item}
             className="uppercase tracking-widest text-brand-orange text-sm font-semibold mb-5"
           >
-            Logan&apos;s Mobile Mechanic
+            DJ&apos;s Mobile Rust &amp; Mechanical
           </motion.p>
 
           <motion.h1
             variants={item}
             className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-tight tracking-tight"
           >
-            Logan&apos;s mechanic.
+            Your Driveway.
             <br />
-            Your driveway.
+            Our Workshop.
           </motion.h1>
 
           <motion.p
