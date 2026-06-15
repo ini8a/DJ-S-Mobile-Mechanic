@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Facebook } from "lucide-react";
 
 export default function FacebookSection() {
@@ -34,16 +35,14 @@ export default function FacebookSection() {
               </a>
             </div>
 
-            {/* Right — Facebook embed */}
-            <div className="bg-[#F0F2F5] flex items-center justify-center p-6 min-h-[320px]">
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FDJs-Mobile-Rust-Mechanical%2F61556690033135%2F&tabs=timeline&width=380&height=280&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true"
-                width="380"
-                height="280"
-                style={{ border: "none", overflow: "hidden", borderRadius: "8px" }}
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                title="DJ's Mobile Rust & Mechanical on Facebook"
+            {/* Right — Facebook post image */}
+            <div className="relative min-h-[320px] lg:min-h-[400px]">
+              <Image
+                src="/images/facebook_post.jpg"
+                alt="DJ's Mobile Rust & Mechanical Facebook post"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
               />
             </div>
           </div>
